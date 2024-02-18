@@ -1,0 +1,243 @@
+{
+  "basics": {
+    "name": "Myroslav Kiurchev",
+    "label": "",
+    "email": "kiurchv@gmail.com",
+    "summary": "I am a polyglot software engineer, with a passion for solving complex problems and a deep grasp of the mechanics behind them. My experience is mainly in web-related technologies, but I also love to tinker with low-level things. It's crucial for me to address real-world challenges, especially those that bring tangible value to society or the industry. I am dedicated to every step of the process, from design through to implementation and delivery.",
+    "location": {
+      "city": "Kyiv",
+      "countryCode": "UA"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kiurchv",
+        "url": "https://github.com/kiurchv"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kiurchv",
+        "url": "https://linkedin.com/in/kiurchv"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Edenlab",
+      "position": "Tech Lead / Senior Software Engineer",
+      "url": "https://edenlab.io",
+      "startDate": "2017-09-01",
+      "summary": "Edenlab is a custom software and product development company specializing in healthcare and financial domains. I joined the company as a frontend developer on a project for the Ukrainian healthcare system reform but eventually introduced a full-stack development approach to my team. Together, we established a cross-functional software development process in the company, which we then successfully applied to numerous subsequent projects.",
+      "highlights": [
+        "Introduced full-stack development approach and grown first cross-functional team in the company",
+        "Built and maintained development and deployment infrastructure with primary focus on high developer experience and efficiency",
+        "Mentored my teammates and developed a diverse group of developers with varying skill levels into a balanced, self-reliant team",
+        "Became a versatile specialist who assists with complex and unconventional problems"
+      ]
+    },
+    {
+      "name": "Freelance contractor",
+      "position": "Software Engineer",
+      "startDate": "2014-06-01",
+      "endDate": "2017-08-01",
+      "summary": "As a freelance programmer, I specialized in both front-end and back-end development, working with various clients on a contract basis. My portfolio included: frontend for cloud storage service (using Knockout.js), React Native and web applications with a shared UI codebase, the design of numerous complex user interfaces tailored for specific customer needs, and the development of several websites using Ruby on Rails.",
+      "highlights": []
+    },
+    {
+      "name": "TwinSlash",
+      "url": "https://twinslash.com",
+      "position": "Frontend Developer",
+      "startDate": "2012-12-01",
+      "endDate": "2014-05-01",
+      "summary": "TwinSlash is a custom software development company focused on Ruby on Rails web projects. I\u00A0joined the company as the sole front-end developer and was responsible for implementing user interfaces across all of the company's projects.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "National Technical University of Ukraine “Kyiv Polytechnic Institute”",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2012-01-01",
+      "endDate": "2015-01-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Military Institute of Telecommunications and Information Technology",
+      "area": "Computer Science",
+      "studyType": "",
+      "startDate": "2010-01-01",
+      "endDate": "2012-01-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "Senior",
+      "keywords": [
+        "Rust",
+        "TypeScript\u00A0/\u00A0JavaScript",
+        "Elixir\u00A0/\u00A0Erlang",
+        "Swift",
+        "Objective-C",
+        "Kotlin\u00A0/\u00A0Java",
+        "Ruby",
+        "Lua"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Senior",
+      "keywords": [
+        "React",
+        "React Native",
+        "Next.js",
+        "SCSS / BEM / CSS\u00A0Modules",
+        "Styled\u00A0components / Styled\u00A0System"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Senior",
+      "keywords": [
+        "Node.js",
+        "NestJS",
+        "Phoenix",
+        "Ecto",
+        "Absinthe",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "name": "DBMSs and Persistence",
+      "level": "Senior",
+      "keywords": ["PostgreSQL", "MongoDB", "Redis", "Kafka"]
+    },
+    {
+      "name": "Infrastructure and CI/CD",
+      "level": "Senior",
+      "keywords": [
+        "Kubernetes",
+        "Helm",
+        "Flux CD",
+        "Helmfile",
+        "Terraform",
+        "GCP",
+        "GitHub Actions",
+        "Fastlane"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "Senior",
+      "keywords": [
+        "Jest",
+        "ExUnit",
+        "RSpec",
+        "Cucumber / BDD",
+        "Cypress",
+        "Appium",
+        "\u00A0"
+      ]
+    },
+    {
+      "name": "Architecture and Design",
+      "level": "Senior",
+      "keywords": [
+        "UML / BPMN",
+        "OOP / FP / RP",
+        "Design Patterns (GoF)",
+        "SOLID",
+        "DDD",
+        "Microservices",
+        "Twelve-Factor",
+        "DevOps"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Turbota (private beta)",
+      "url": "https://edenlab.io/case/turbota-personal-healthcare-app",
+      "startDate": "2019-08-01",
+      "endDate": "2022-02-01",
+      "roles": ["Tech Lead", "Senior Software Engineer", "SRE"],
+      "description": "Health wallet / health tracker mobile app. As a technical lead for a project I was responsible for system design and implementation of core system components. We managed to grow a self-sufficient cross-functional team, and I really enjoyed being part of this process. Also, I was involved in building and maintenance of development and deployment infrastructure which was successfully reused in subsequent projects.",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "MongoDB",
+        "React Native",
+        "GraphQL",
+        "Kubernetes",
+        "Google Cloud Platform",
+        "Fastlane"
+      ]
+    },
+    {
+      "name": "Government medical information system (NDA)",
+      "startDate": "2021-03-01",
+      "endDate": "2021-08-01",
+      "roles": ["Tech Lead", "Senior Software Engineer"],
+      "description": "Implementation of a national healthcare system component. I was a technical lead on a project to develop an insurance coverage / eligibility check facade application for a FHIR server. The main challenge was to design a UI and business processes to be configurable, aiming to create a universal solution that could be reconfigured and potentially adopted in other countries in the future.",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "NestJS",
+        "MongoDB",
+        "HL7 FHIR",
+        "React",
+        "GraphQL",
+        "Cypress"
+      ]
+    },
+    {
+      "name": "Mobile banking platform for Raiffeisen Bank International",
+      "url": "https://edenlab.io/case/banking-platform-for-rbi-international",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-01",
+      "roles": ["Senior Software Engineer"],
+      "description": "Digital banking platform project for a major bank in the European market. I have developed an MVP mobile application as part of a scalable digital banking platform. The app's features included: user registration, user identity proofing, opening a bank account and credit scoring.",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "Objective-C",
+        "Kotlin",
+        "React Native",
+        "Fastlane"
+      ]
+    },
+    {
+      "name": "eHealth",
+      "url": "https://ehealth.gov.ua",
+      "startDate": "2017-09-01",
+      "endDate": "2020-06-01",
+      "roles": ["Senior Software Engineer"],
+      "description": "Central component of the Ukrainian national health system. I joined the project as a front-end developer, focusing on the system's internal user interfaces. Eventually, I transitioned to a full-stack developer role, where I participated in developing APIs and the UI for the system's main administrative console and implemented several business processes for the system's backend.",
+      "highlights": [],
+      "keywords": [
+        "Node.js",
+        "React",
+        "GraphQL",
+        "Elixir",
+        "PostgreSQL",
+        "MongoDB",
+        "Kubernetes",
+        "Google Cloud Platform",
+        "Cucumber / BDD"
+      ]
+    }
+  ]
+}

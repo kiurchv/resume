@@ -1,0 +1,47 @@
+name: Publish Resume to GitHub Pages
+on: push
+
+jobs:
+  build:
+    env:
+      THEME: ${{ vars.THEME }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+      - name: Install resume-cli and theme package
+        run: |
+          npm install -g resume-cli
+          npm install jsonresume-theme-$THEME
+      - name: Export resume
+        id: export
+        run: |
+          OUTPUT_DIR=$(mktemp -d -p $RUNNER_TEMP resume.XXXXXXXXXX)
+          chmod +rX $OUTPUT_DIR
+          resume export --theme $THEME --format html $OUTPUT_DIR/index.html
+          resume export --theme $THEME --format pdf $OUTPUT_DIR/resume.pdf
+          echo "output_dir=$OUTPUT_DIR" >> $GITHUB_OUTPUT
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.export.outputs.output_dir }}
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
