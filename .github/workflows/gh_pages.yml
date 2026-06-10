@@ -5,6 +5,7 @@ jobs:
   build:
     env:
       THEME: ${{ vars.THEME }}
+      RESUME_PUPPETEER_NO_SANDBOX: "true"
 
     runs-on: ubuntu-latest
     steps:
