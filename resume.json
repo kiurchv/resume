@@ -4,7 +4,7 @@
     "label": "",
     "image": "https://github.com/kiurchv.png",
     "email": "kiurchv@gmail.com",
-    "summary": "I am a polyglot software engineer, with a passion for solving complex problems and a deep grasp of the mechanics behind them.\n\nThroughout my career, I have worked across various domains, taking on roles ranging from a regular engineer to a team's technical lead.\n\nI have experience with many programming languages and technologies, but I am always open to new things. As an engineer, my experience spans from high-load distributed systems to low-level programming. Beyond software, I have a passion for electronics and embedded development, with a solid understanding of hardware system design, communication protocols, and navigation principles, informed by both hands-on practice and a background in military telecommunications.\n\nIt's crucial for me to address real-world challenges, especially those that bring tangible value to society or the industry. For me, every detail of the work process matters, and I prefer a comprehensive approach to problem-solving, taking responsibility for every step - from analyzing the problem to delivering the solution.\n\nI am business-oriented and always strive to transform complex problems into simple, straightforward solutions in the most balanced and reliable manner, ensuring they align perfectly with the organizational structure, product goals, and customer needs.\n\nFurthermore, I pay significant attention to the working process. It is essential for me to maintain a high developer experience for my teammates, continuously supporting their growth and mentoring them, thereby ensuring the highest productivity for the entire team.",
+    "summary": "I am a polyglot software engineer with a passion for solving complex problems and a deep grasp of the mechanics behind them. Throughout my career, I have worked across various domains, taking on roles from a regular engineer to a team's technical lead.\n\nAs an engineer, my experience spans from high-load distributed systems to low-level programming. Beyond software, I have a passion for electronics and embedded development, with a solid understanding of hardware system design, communication protocols, and navigation principles, informed by both hands-on practice and a background in military telecommunications.\n\nI am business-oriented and prefer a comprehensive approach to problem-solving: from analyzing the problem to delivering the solution. I pay significant attention to developer experience, supporting my teammates' growth and maintaining high productivity across the team.",
     "location": {
       "city": "Kyiv",
       "countryCode": "UA"
@@ -144,6 +144,15 @@
       ]
     },
     {
+      "name": "Testing",
+      "level": "Senior",
+      "keywords": [
+        "Jest",
+        "ExUnit",
+        "Cucumber / BDD"
+      ]
+    },
+    {
       "name": "Infrastructure",
       "level": "Senior",
       "keywords": [
@@ -151,15 +160,6 @@
         "Terraform",
         "GCP",
         "GitHub Actions"
-      ]
-    },
-    {
-      "name": "Testing",
-      "level": "Senior",
-      "keywords": [
-        "Jest",
-        "ExUnit",
-        "Cucumber / BDD"
       ]
     },
     {
@@ -181,7 +181,7 @@
         "ESP32",
         "Arduino",
         "FreeRTOS",
-        "Rust Embedded (std/no_std, embedded-hal, esp-idf-hal/esp-hal)",
+        "Rust Embedded",
         "Nerves Platform",
         "Circuit Design",
         "Soldering & Prototyping",
