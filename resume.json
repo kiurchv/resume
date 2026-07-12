@@ -101,14 +101,15 @@
   "publications": [],
   "skills": [
     {
-      "name": "Programming languages",
+      "name": "Languages",
       "level": "Senior",
       "keywords": [
         "Rust",
+        "C / C++",
+        "Python",
         "TypeScript / JavaScript",
         "Elixir / Erlang",
-        "Swift",
-        "Objective-C",
+        "Swift / Objective-C",
         "Kotlin / Java",
         "Ruby",
         "Lua"
@@ -120,9 +121,7 @@
       "keywords": [
         "React",
         "React Native",
-        "Next.js",
-        "SCSS / BEM / CSS Modules",
-        "Styled components / Styled System"
+        "Next.js"
       ]
     },
     {
@@ -131,34 +130,27 @@
       "keywords": [
         "Node.js",
         "NestJS",
-        "Phoenix",
-        "Ecto",
-        "Absinthe",
-        "Ruby on Rails"
+        "FastAPI",
+        "Phoenix / Ecto"
       ]
     },
     {
-      "name": "DBMSs and Persistence",
+      "name": "Databases",
       "level": "Senior",
       "keywords": [
         "PostgreSQL",
         "MongoDB",
-        "Redis",
         "Kafka"
       ]
     },
     {
-      "name": "Infrastructure and CI/CD",
+      "name": "Infrastructure",
       "level": "Senior",
       "keywords": [
         "Kubernetes",
-        "Helm",
-        "Flux CD",
-        "Helmfile",
         "Terraform",
         "GCP",
-        "GitHub Actions",
-        "Fastlane"
+        "GitHub Actions"
       ]
     },
     {
@@ -167,29 +159,22 @@
       "keywords": [
         "Jest",
         "ExUnit",
-        "RSpec",
-        "Cucumber / BDD",
-        "Cypress",
-        "Appium",
-        " "
+        "Cucumber / BDD"
       ]
     },
     {
-      "name": "Architecture and Design",
+      "name": "Architecture",
       "level": "Senior",
       "keywords": [
         "UML / BPMN",
         "OOP / FP / RP",
         "Design Patterns (GoF)",
-        "SOLID",
-        "DDD",
-        "Microservices",
-        "Twelve-Factor",
-        "DevOps"
+        "SOLID / DDD",
+        "Microservices"
       ]
     },
     {
-      "name": "Electronics & Embedded Systems",
+      "name": "Embedded",
       "level": "Hobbyist",
       "keywords": [
         "Raspberry Pi",
@@ -200,7 +185,7 @@
         "Nerves Platform",
         "Circuit Design",
         "Soldering & Prototyping",
-        "UART / SPI / I2C / 1-Wire",
+        "UART / SPI / I2C",
         "WiFi / Bluetooth / Zigbee / LoRa",
         "Electrical Systems & AC Mains"
       ]
